@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+body{
+    font:14px/1.5 Arial;
+    background-color:#eee;
+    color:#fff;
+}
+.layout{
+    margin: 0 auto;
+    max-width: 1900px;
+}
+.egg1{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -16px -13px;
+}
+.egg2{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -100px -13px;
+}
+.egg3{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -182px -13px;
+}
+.egg4{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -16px -94px;
+}
+.egg5{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -100px -94px;
+}
+.egg6{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -182px -94px;
+}
+.egg7{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -16px -174px;
+}
+.egg8{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -100px -174px;
+}
+.egg9{
+    width: 67px;
+    height: 77px;
+    background: url(./background/egg.png) -182px -174px;
+}
