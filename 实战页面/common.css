@@ -69,3 +69,12 @@ body{
     height: 77px;
     background: url(./background/egg.png) -182px -174px;
 }
+.icon{ 
+    width: 2em;
+    height: 2em; 
+   font-size:4em;
+    vertical-align: -0.15em; 
+    fill: currentColor; 
+    overflow: hidden;
+ }
+ 
