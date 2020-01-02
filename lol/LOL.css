@@ -14,8 +14,21 @@
      clear:both;
      display: block;;
  }
- .head-normal{
+ nav::before{
+    height: 130px;
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(to top, rgba(251, 251, 251, 0) 0%, rgb(87, 87, 87) 66%, rgb(4, 4, 4) 100%);
+ }
+ nav .head-normal{
     height:100%;
+    top: 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
   }
 nav .Related_web{
     display: inline-block;
@@ -46,6 +59,9 @@ nav .Related_web a{
 .icon-fuction{
     float: left;
 }
+.icon_list{
+    margin-left:-20px;
+}
 .icon_list li{
     width: 40px; 
     height: 40px;
@@ -66,6 +82,26 @@ nav .Related_web a{
     float: right;
     margin-top: 9px;
     margin-right: 18px;
+}
+.signin a{
+    color: #fff3d0;
+}
+.comm-topact{
+    width: 100%;
+    min-width: 1230px;
+    height: 720px;
+    overflow: hidden;
+    position: relative;
+
+}
+.comm-topact > img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1920px;
+    height: 100%;
+    margin-left: -960px;
+    z-index: 1;
 }
 /* nav .icon-fuction{
     float: right;

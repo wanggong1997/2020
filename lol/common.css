@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+header{
+    background-color: #ffffff;
+}
 nav{
-    background-color: #000000;
+    background-color: transparent;
+    position: absolute;
 }
 a{
     text-decoration: none;
