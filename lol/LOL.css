@@ -149,7 +149,7 @@ nav .Related_web a{
 .version > button{
     border: 2px solid #c89b2f;
     background-color: #100c0e;
-    opacity: 0.8;
+    opacity: 0 .8;
 }
 .version > button:hover{
     opacity: 1;
@@ -170,7 +170,7 @@ nav .Related_web a{
     margin: 0 auto;
     padding: 40px 0 80px 0;
 }
-.infor > .Events{
+.infor_all  > .Events{
     float: left;
 }
 .Events .Events_list{
@@ -199,10 +199,9 @@ nav .Related_web a{
     background-color: white;
     color: #c89b2f;
 }
-.infor > .details{
+.infor_all > .details{
     float: right;
     width: 496px;
-    height: 35px;
     overflow: visible;
     box-sizing: border-box;
     border-bottom: 1px #e0e2e2 solid;
@@ -294,3 +293,45 @@ nav .Related_web a{
 .btn-morenews:hover{
     background-color: #dad8d8;
 }
+.m-act{
+    margin-top: 50px;
+}
+.part-top-tab{
+    position: relative;
+    width: 820px;
+    height: 35px;
+}
+.part-top-tab > h2{
+    position: absolute;
+}
+.part-tab-title{
+    position: absolute;
+    top: 0;
+    left: 128px;
+}
+.part-tab-title > li{
+    float: left;
+    line-height: 28px;
+    margin-right: 40px;
+}
+.part-tab-title > li > a{
+    color: #000000;
+    font-weight: 700;
+}
+.part-top-tab > a{
+    position: absolute;
+    right: 2px;
+    line-height: 28px;
+    color: #6388c5;
+}
+.m-act-list{
+    width: 820px;
+}
+#J_actListContainer{
+    margin-right: -32px;
+}
+.act-item{
+    float: left;
+    margin-right: 16px;
+}
+
